@@ -30,7 +30,7 @@ const MMddyyRegex = new RegExp(
   "i"
 );
 const javcodeRegex =
-  /((?:3DSVR|T28|T38|\\d{1,2}ID|CPZ69|CPZ69-H|D1|WVR\\w{1,2}|MBR-\\w{1,2}|MMR-\\w{1,2}|SRE-\\w{1,2}|SRN-\\w{1,2}|SVBD-\\w{1,2}|PA0|[A-Z]+)-?(?:\\d+[A-Z]?))/i;
+  /((?:\d{3})?(?:3DSVR|T28|T38|\\d{1,2}ID|CPZ69|CPZ69-H|D1|WVR\\w{1,2}|MBR-\\w{1,2}|MMR-\\w{1,2}|SRE-\\w{1,2}|SRN-\\w{1,2}|SVBD-\\w{1,2}|PA0|[A-Z]+)-?(?:\\d+[A-Z]?))/i;
 
 const handleSpecialStrings = (input: string): string => {
   let output = input;
